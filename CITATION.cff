@@ -1,0 +1,39 @@
+cff-version: 1.2.0
+message: "If you use this software toolkit or the engineered SGCC data pipeline, please cite it as below."
+title: "ecct: Reproducible Research Pipeline and Benchmark Toolkit for Smart Grid Electricity Theft Detection"
+version: 0.1.0
+date-released: 2026-10-27
+authors:
+  - name: "walleyjs"
+    alias: "walleyjs"
+url: "https://github.com/walleyjs/ecct"
+repository-code: "https://github.com/walleyjs/ecct"
+keywords:
+  - electricity-theft-detection
+  - smart-grid
+  - anomaly-detection
+  - time-series
+  - machine-learning
+  - reproducible-research
+license: MIT
+references:
+  - type: article
+    authors:
+      - family-names: "Zheng"
+        given-names: "Zibin"
+      - family-names: "Yang"
+        given-names: "Yatao"
+      - family-names: "Niu"
+        given-names: "Xiangdong"
+      - family-names: "Dai"
+        given-names: "Hong-Ning"
+      - family-names: "Zhou"
+        given-names: "Yuren"
+    title: "Wide and Deep Convolutional Neural Networks for Electricity-Theft Detection to Secure Smart Grids"
+    journal: "IEEE Transactions on Industrial Informatics"
+    volume: 14
+    issue: 4
+    year: 2018
+    start: 1606
+    end: 1615
+    doi: "10.1109/TII.2017.2785963"

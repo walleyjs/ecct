@@ -3,14 +3,14 @@ requires = ["setuptools>=61.0"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "sgcc-electricity-theft"
+name = "ecct"
 version = "0.1.0"
-description = "Reproducible research data pipeline and benchmark package for the SGCC Electricity Theft Detection dataset"
+description = "Reproducible research data pipeline, schema contracts, and benchmark toolkit for the SGCC Electricity Theft Detection dataset"
 readme = "README.md"
 requires-python = ">=3.10"
 license = { text = "MIT" }
 authors = [
-    { name = "Henry RD Lab & Contributors" }
+    { name = "walleyjs", email = "walley@users.noreply.github.com" }
 ]
 keywords = [
     "electricity-theft-detection",
@@ -18,7 +18,9 @@ keywords = [
     "time-series",
     "anomaly-detection",
     "sgcc",
-    "machine-learning"
+    "machine-learning",
+    "reproducible-research",
+    "ecct"
 ]
 dependencies = [
     "polars>=1.0.0",
@@ -35,8 +37,14 @@ dev = [
     "ruff>=0.5.0",
 ]
 
+[project.urls]
+Homepage = "https://github.com/walleyjs/ecct"
+Repository = "https://github.com/walleyjs/ecct"
+Issues = "https://github.com/walleyjs/ecct/issues"
+
 [project.scripts]
 sgcc-theft = "src.cli:main"
+ecct = "src.cli:main"
 
 [tool.ruff]
 line-length = 100
